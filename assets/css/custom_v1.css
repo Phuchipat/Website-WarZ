@@ -1,0 +1,313 @@
+/* My custom */
+@import url(https://fonts.googleapis.com/css?family=Kanit&subset=thai,latin);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kanit', sans-serif;
+}
+
+p, div {
+  font-family: 'Kanit', sans-serif;
+}
+
+header > .jumbotron {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: -1px;
+}
+
+footer > .jumbotron {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  min-width: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#logo-container {
+  visibility: hidden;
+}
+
+.logo-title {
+  margin-bottom: 0;
+}
+
+#logo-title:hover {
+  color: #fff;
+  text-shadow: #fff 0 0 4px, #fff 0 0 20px;
+}
+
+.Panel-title {
+  margin-bottom: 0;
+}
+
+#Panel-title:hover {
+  color: #fff;
+  text-shadow: #fff 0 0 4px, #fff 0 0 20px;
+}
+
+
+.logo-slogan {
+  margin-top: 0;
+  padding-left: 30px;
+}
+
+/* Topic list */
+.topic-list-separate {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.topic-list-photo {
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.topic-list-icon {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.topic-list-icon h3 {
+  margin-top: 10px;
+}
+
+/* Topic view */
+.topic-view-photo {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.topic-view-user-stats .col-xs-6 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.topic-view-user-stats span {
+  width: 100px;
+  display: inline-block;
+}
+
+.topic-view-user-stats .progress {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.topic-view-posted-datetime, .topic-view-comment-number {
+  margin-top: -8px;
+}
+
+.topic-view-min-height {
+  min-height: 300px;
+}
+
+.topic-view-comment-min-height {
+  min-height: 350px;
+}
+
+.topic-view-like {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.topic-view-comment-editor-submit {
+  margin-top: 20px;
+}
+
+.blockquote-author-hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+  height: 1px;
+  color: #0c0d0e;
+  background-color: #0c0d0e;
+}
+
+/* Member list */
+.member-list-separate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.member-view-photo {
+  width: 150px;
+  height: 150px;
+}
+
+/* User CP */
+.user-cp-separate {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Store */
+.store-program-icon {
+  width: 48px;
+  height: 48px;
+}
+
+/* Home */
+.home-status-program-icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Thumbnail */
+.thumbnail-photo-40 {
+  width: 40px;
+  height: 40px;
+}
+
+.thumbnail-photo-60 {
+  width: 60px;
+  height: 60px;
+}
+
+.thumbnail-photo-120 {
+  width: 120px;
+  height: 120px;
+}
+
+.thumbnail-photo-150 {
+  width: 150px;
+  height: 150px;
+}
+
+/* Helper class */
+.text-overflow-hide {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bbcode-content {
+  word-wrap: break-word; 
+}
+
+.pd-bot-10 {
+  padding-bottom: 10px;
+}
+
+.mg-bot-2 {
+  margin-bottom: 2px;
+}
+
+.mg-top-0 {
+  margin-top: 0;
+}
+
+.mg-top-10 {
+  margin-top: 10px;
+}
+
+.mg-top-20 {
+  margin-top: 20px;
+}
+
+.mg-top-30 {
+  margin-top: 30px;
+}
+
+.clear-padding-left {
+  padding-left: 0;
+}
+
+.font-size-90 {
+  font-size: 90%;
+}
+
+.font-size-100 {
+  font-size: 100%;
+}
+
+.valign-mid {
+  vertical-align: middle !important;
+}
+
+/* color */
+.text-vip {
+  color: #00FF00;
+}
+
+.text-free {
+  color: #FFFF00;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* Browse Button */
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+/* Bootstrap Slate disabled button overide fix by jeans */
+.btn-default[disabled] {
+  opacity: 0.4;
+}
+.btn-default[disabled]:hover {
+  background-color: #3a3f44;
+  border-color: rgba(0,0,0,0.6);
+  background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#484e55), color-stop(60%, #3a3f44), to(#313539));
+  background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff484e55', endColorstr='#ff313539', GradientType=0);
+  -webkit-filter: none;
+  filter: none;
+}
+.btn-danger[disabled] {
+  opacity: 0.4;
+}
+.btn-danger[disabled]:hover {
+  background-color: #ee5f5b;
+  border-color: rgba(0,0,0,0.6);
+  background-image: -webkit-linear-gradient(#f17a77, #ee5f5b 60%, #ec4d49);
+  background-image: -o-linear-gradient(#f17a77, #ee5f5b 60%, #ec4d49);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f17a77), color-stop(60%, #ee5f5b), to(#ec4d49));
+  background-image: linear-gradient(#f17a77, #ee5f5b 60%, #ec4d49);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff17a77', endColorstr='#ffec4d49', GradientType=0);
+  -webkit-filter: none;
+  filter: none;
+}
